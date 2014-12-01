@@ -54,6 +54,6 @@ toggle.show('tag_name');
 ```
 #### Using with event handlers
 ```html
-<button onclick='shit.show('tag_name');'>Show</button>
+<button onclick="shit.show('tag_name');">Show</button>
 ```
 
