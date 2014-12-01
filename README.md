@@ -20,7 +20,7 @@ shit.show('#id_name');
 ```
 Show - using Class
 ```js
-shit.show('#div_name');
+shit.show('.class_name');
 ```
 Show - using Tag
 ```js
@@ -33,7 +33,7 @@ hide.show('#id_name');
 ```
 Hide - using Class
 ```js
-hide.show('#div_name');
+hide.show('.class_name');
 ```
 Hide - using Tag
 ```js
@@ -46,7 +46,7 @@ toggle.show('#id_name');
 ```
 Toggle - using Class
 ```js
-toggle.show('#div_name');
+toggle.show('.class_name');
 ```
 Toggle - using Tag
 ```js
