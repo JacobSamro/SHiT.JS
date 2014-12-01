@@ -29,28 +29,28 @@ shit.show('tag_name');
 ##### Hide
 Hide - using ID
 ```js
-hide.show('#id_name');
+shit.hide('#id_name');
 ```
 Hide - using Class
 ```js
-hide.show('.class_name');
+shit.hide('.class_name');
 ```
 Hide - using Tag
 ```js
-hide.show('tag_name');
+shit.hide('tag_name');
 ```
 ##### Toggle
 Toggle - using ID
 ```js
-toggle.show('#id_name');
+shit.toggle('#id_name');
 ```
 Toggle - using Class
 ```js
-toggle.show('.class_name');
+shit.toggle('.class_name');
 ```
 Toggle - using Tag
 ```js
-toggle.show('tag_name');
+shit.toggle('tag_name');
 ```
 #### Using with event handlers
 ```html
