@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+}
+section {
+	width: 800px;
+	margin: 0 auto;
+	background: #EEE;
+	border: 5px solid #737677;
+	padding: 15px;
+	border-radius: 6px;
+}
+h1{
+	text-align: center;
+	font-family: 'Seogi UI',sans-serif;
+}
+h3{
+	font-family: 'Seogi UI',sans-serif;
+}
+pre{
+	font-family: 'Consolas',monospace;
+	border: 2px solid #E2E2E2;
+	padding: 5px;
+	border-radius: 5px;
+}
+button{
+    background: #1383BD;
+
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div{
+	margin: 10px;
+	background: #EEE;
+	padding: 50px;
+}
+nav{
+    margin: -15px -15px 0px -15px;
+	
+    background: #514D4D;
+    padding: 5px;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a {
+	margin: 20px 0 0 20px;
+	font-family: sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

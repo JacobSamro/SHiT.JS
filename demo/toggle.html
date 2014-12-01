@@ -1,0 +1,45 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Toggle - SHiT.JS</title>
+	<script type="text/javascript" src="../shit.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/demo.js"></script>
+</head>
+<body>
+<section>
+<nav>
+	<ul>
+		<li><a href="show.html">Show</a></li>
+		<li><a href="hide.html">Hide</a></li>
+		<li><a href="toggle.html">Toggle</a></li>
+	</ul>
+</nav>
+<h1>SHiT.JS - Toggle()</h1>
+<h3>Syntax</h3>
+<pre>
+shit.toggle('#div name');		// use # to for div
+shit.toggle('.class name');	// use . for class
+shit.toggle('tag name');		// tag
+</pre>
+<br/>
+<h3>Example</h3>
+<pre>
+	&lt;button onclick="shit.toggle('#container')"&gt;Toggle using ID&lt;/button&gt;
+	&lt;button onclick="shit.toggle('.hello')"&gt;Toggle using Class&lt;/button&gt;
+	&lt;button onclick="shit.toggle('div')"&gt;Toggle using Tag&lt;/button&gt;
+</pre>
+	<button onclick="shit.toggle('#container')">Toggle using ID</button>
+	<button onclick="shit.toggle('.hello')">Toggle using Class</button>
+	<button onclick="shit.toggle('div')">Toggle using Tag</button>
+	<br/>
+
+	<div id="container" class="hello">Hello! I am a <strong>div</strong>. My ID is <strong>container</strong> and class is <strong>hello</strong></div>
+</section>
+</body>
+</html>
+<style>
+div{
+	display: none;
+}
+</style>

@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Hide - SHiT.JS</title>
+	<script type="text/javascript" src="../shit.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/demo.js"></script>
+</head>
+<body>
+<section>
+<nav>
+	<ul>
+		<li><a href="show.html">Show</a></li>
+		<li><a href="hide.html">Hide</a></li>
+		<li><a href="toggle.html">Toggle</a></li>
+	</ul>
+</nav>
+<h1>SHiT.JS - hide()</h1>
+<h3>Syntax</h3>
+<pre>
+shit.hide('#div name');		// use # to for div
+shit.hide('.class name');	// use . for class
+shit.hide('tag name');		// tag
+</pre>
+<br/>
+<h3>Example</h3>
+<pre>
+	&lt;button onclick="shit.hide('#container')"&gt;Hide using ID&lt;/button&gt;
+	&lt;button onclick="shit.hide('.hello')"&gt;Hide using Class&lt;/button&gt;
+	&lt;button onclick="shit.hide('div')"&gt;Hide using Tag&lt;/button&gt;
+</pre>
+	<button onclick="shit.hide('#container')">Hide using ID</button>
+	<button onclick="shit.hide('.hello')">Hide using Class</button>
+	<button onclick="shit.hide('div')">Hide using Tag</button>
+	<button onclick="reset();">Reset</button>
+	<br/>
+
+	<div id="container" class="hello">Hello! I am a <strong>div</strong>. My ID is <strong>container</strong> and class is <strong>hello</strong></div>
+</section>
+</body>
+</html>
