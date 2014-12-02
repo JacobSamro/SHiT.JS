@@ -7,7 +7,7 @@ A JavaScript Library that allow you to show,hide and toggle HTML Elements. It's 
 
 ### Instructions
 
-#### Adding SHiT JS
+#### Adding SHiT.JS
 ```html
 <script type="text/javascript" src="shit.min.js"></script>
 ```
